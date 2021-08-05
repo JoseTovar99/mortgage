@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(
+        rgba(16, 28, 49, 0.80),
+        rgba(16, 28, 49, 0.80),
+        rgba(16, 28, 49, 0.80)), url(img/realestatehome.jpg);
+    background-size: cover;
+    background-position: right 35% bottom 80%;
+    
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+
+}
+
+.card {
+    margin-top: 5rem;
+    filter: brightness(90%);
+    -moz-box-shadow:    0 0 50px #000000;
+    -webkit-box-shadow: 0 0 50px #000000;
+    box-shadow:         0 0 50px #000000; 
+}
+
+h2 {
+    color: #c69963;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 3rem;
+}
